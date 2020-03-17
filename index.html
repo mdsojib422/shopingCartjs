@@ -1,0 +1,148 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoping Cart</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section id="shop_cart">
+        <div class="container bg-dark py-2">
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <div class="show_carts_wrapper">
+                        <div class="single_cart_items">
+                            <div class="row align-items-center">
+                                <div class="col-md-2">
+                                    <img src="img/apple-iphone-x-new-1.jpg" width="100%" alt="">
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="items_name">
+                                        <h5>iPhone 11 128GB Black</h5>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <ul class="quantity_buttons">
+                                        <li><a id="minus_quantity" href="#"><i class="fas fa-minus"></i></a></li>
+                                        <li>
+                                            <div class="quantity_inputs">
+                                                <input type="text" id="quantity" value="1">
+                                            </div>
+                                        </li>
+                                        <li><a href="#" id="plus_quantity"><i class="fas fa-plus"></i></a></li>
+
+                                    </ul>
+                                </div>
+                                <div class="col-md-1">
+                                    <div class="items_price">
+                                        <h6>$<span id="quantity_price">1219</span></h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-1">
+                                    <a id="close_btn" href="#"><i class="fas fa-times"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+          
+            </div>
+
+            <div class="row py-2">
+                <div class="col-lg-12 ">
+                    <div class="show_carts_wrapper">
+                        <div class="single_cart_items">
+                            <div class="row align-items-center">
+                                <div class="col-md-2">
+                                    <img src="img/cover-iphone-png.png" width="100%" alt="">
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="items_name">
+                                        <h5>iPhone Cover Black</h5>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <ul class="quantity_buttons">
+                                        <li><a id="cover_minus_quantity" href="#"><i class="fas fa-minus"></i></a></li>
+                                        <li>
+                                            <div class="cover_quantity_inputs">
+                                                <input type="text" id="cover_quantity" value="1">
+                                            </div>
+                                        </li>
+                                        <li><a href="#" id="cover_plus_quantity"><i class="fas fa-plus"></i></a></li>
+
+                                    </ul>
+                                </div>
+                                <div class="col-md-1">
+                                    <div class="items_price">
+                                        <h6>$<span id="cover_quantity_price">1219</span></h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-1">
+                                    <a id="close_btn" href="#"><i class="fas fa-times"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+          
+            </div>
+            <div class="row py-2">
+                <div class="col-lg-12 ">
+                    <div class="show_carts_wrapper">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul class="footer_stl">
+                                    <li>Subtotal:</li>
+                                    <li>Tax:</li>
+                                    <li>Tatal:</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 d-flex justify-content-end">
+                                <ul class="footer_stl result_sec">
+                                    <li>$<span id="subtotal">0</span></li>
+                                    <li>$<span id="tax">0</span></li>
+                                    <li>$<span id="total">0</span></li>
+                                </ul>
+                              
+                            </div>
+                            <div class="checkout_btn_wrapper">
+                                <a class="btn btn-primary" href="#">Checkout</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+          
+            </div>
+
+            
+        </div>
+    </section>
+
+
+
+<script>
+
+    function dropdown_fnc(){
+            this.addEventListener('click',function(){
+
+                   
+            });
+            var dropdownCls = document.getElementsByClassName("dropdown");
+    }
+</script>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom-script.js"></script>
+</body>
+
+</html>

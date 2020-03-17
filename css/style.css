@@ -1,0 +1,48 @@
+
+.show_carts_wrapper{
+    width: 800px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+.quantity_buttons{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.quantity_buttons li {
+    display: inline-block;
+    padding:0 3px;
+}
+.quantity_buttons li a{
+        color: black;
+}
+.quantity_buttons li input:focus{
+    outline: none;
+}
+.quantity_buttons li input{
+    width: 50px;
+    height: 35px;
+    text-align: center;
+    border: none;
+    background-color: lightgray;
+}
+#close_btn{
+    color: black; 
+}
+.footer_stl{
+    list-style: none;
+    
+}
+.footer_stl li{
+    padding: 5px 0;
+}
+ul.footer_stl.result_sec {
+    margin-right: 55px;
+    text-align: right;
+}
+.checkout_btn_wrapper {
+    width: 95%;
+    text-align: right;
+    margin-top: 20px;
+}
